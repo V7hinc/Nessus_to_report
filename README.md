@@ -1,11 +1,12 @@
 ## Nessus_to_report
-Nessus报告转中文。
+Nessus报告转中文，原脚本升级至python3。
 
 ## 2020-4-19
 * 更新至python3
 * 增加端口信息
 * 解决中文编码问题
 
+[注] 目前仅测试了，处理单个ip的扫描结果。
 ## Sample
 
 ```
@@ -25,6 +26,9 @@ IP地址: 172.16.176.120
 ```
 ![image](https://github.com/starnightcyber/Nessus_to_report/blob/master/sample.png?raw=true)
 
+## 说明
+
+Nessus扫描结束，选择HTML类型，Report选择Custom，Croup By 选择Host，导出HTML报告。
 
 ## Origin
 
