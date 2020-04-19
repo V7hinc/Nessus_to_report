@@ -28,7 +28,7 @@ IP地址: 172.16.176.120
 
 ## 说明
 
-Nessus扫描结束，选择HTML类型，Report选择Custom，Croup By 选择Host，导出HTML报告。
+Nessus扫描结束，选择HTML类型，Report选择Custom，Group By 选择Host，导出HTML报告。
 
 ## Origin
 
