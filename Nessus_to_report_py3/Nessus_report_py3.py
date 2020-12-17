@@ -47,7 +47,7 @@ def select(ip, id):
 
 
 def extract(filename):
-    with open(filename, 'r') as fr:
+    with open(filename, 'r', encoding='utf-8') as fr:
         html = fr.read()
     bs = BeautifulSoup(html, "html.parser")
 
